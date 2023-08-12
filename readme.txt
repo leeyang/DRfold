@@ -13,32 +13,32 @@ DRfold can be used under The MIT License
 		3. Arena (https://github.com/pylelab/Arena)# If bin/Arena does not work, try to compile from thsi source
 
     2) Prerequisites
-		1. Linux systems
+	1. Linux systems
         2. Python3 with numpy and scipy 
         3. pytorch (https://pytorch.org/get-started/locally/)
            Anaconda is recommended to set up python environments
-		4. OpenMM (https://openmm.org/)
+	4. OpenMM (https://openmm.org/)
 
     3) Localization (We thank Martinovic Ivona for improving the document)
-		1. Modify DRfold/scripts/Features.py to set 'petfoldbin' and 'ViennaRNAbin' properly, according to
+	1. Modify DRfold/scripts/Features.py to set 'petfoldbin' and 'ViennaRNAbin' properly, according to
 			your own installation.(set the variables to executable files, not just bin/ folder, 
 									meaning '/home/username/ViennaRNA/bin/RNAfold' and 
 									'/home/username/PETfold/bin/PETfold').
-		2. Modify the PETFOLDBIN path in DRfold/DRfold.sh (Line 6)
-		3. Modify the PYTHON path in DRfold/DRfold.sh (Line 7)
-		4. Move the compile Arena bin file to bin/, (if the built-in version does not work)
-		4. Set executable permission to the bin file in DRfold/bin/.
+	2. Modify the PETFOLDBIN path in DRfold/DRfold.sh (Line 6)
+	3. Modify the PYTHON path in DRfold/DRfold.sh (Line 7)
+	4. Move the compile Arena bin file to bin/, (if the built-in version does not work)
+	4. Set executable permission to the bin file in DRfold/bin/.
 		
-	4) Model file downloads
-		1. Download https://zhanggroup.org/DRfold/DRfold_models.zip and unzip the file
-		2. Simply merge the files in unzipped 'DRfold' to the current path. Now downloaded model files shouold be available under DRfold/DeepE2EPotential/model and 
+    4) Model file downloads
+	1. Download https://zhanggroup.org/DRfold/DRfold_models.zip and unzip the file
+	2. Simply merge the files in unzipped 'DRfold' to the current path. Now downloaded model files shouold be available under DRfold/DeepE2EPotential/model and 
 			DRfold/DeepGeoPotential/config*/model
 
 3. Bug report:
     Please visit https://zhanglab.ccmb.med.umich.edu/bbs/?q=forum/2
 
 4. How to run the DRfold?
-	python DRfold.sh [fastafile] [outputdir]
+	bash DRfold.sh [fastafile] [outputdir]
 		fastafile: The input fastafile containing the query sequence
 		outputdir:  Output file dir
 	The running time for a regular RNA seqeunce (~50 nts) should be around 1 hour
