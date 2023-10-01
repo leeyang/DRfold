@@ -8,7 +8,7 @@ DRfold can be used under The MIT License
 
 2. How to install the DRfold?
     1) Third-party softwares
-		1. PETfold (https://rth.dk/resources/petfold/download.html)
+		1. PETfold (https://rth.dk/resources/petfold/download.php) # Please install PETfold v2.0, we thank juychen and luwei0917 for the test and feedback!
 		2. The ViennaRNA Package (https://www.tbi.univie.ac.at/RNA/)
 		3. Arena (https://github.com/pylelab/Arena)# If bin/Arena does not work, try to compile from thsi source
 
