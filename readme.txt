@@ -55,4 +55,4 @@ DRfold can be used under The MIT License
 
 Reference
 Yang Li, Chengxin Zhang, Chenjie Feng, Robin Pearce, Peter L. Freddolino, Yang Zhang.
-Integrating end-to-end learning with deep geometrical potentials for ab initio RNA structure prediction, submitted.
+Integrating end-to-end learning with deep geometrical potentials for ab initio RNA structure prediction. Nat Commun 14, 5745 (2023). https://doi.org/10.1038/s41467-023-41303-9
